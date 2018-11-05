@@ -17,7 +17,32 @@
 		<key>1102textfieldtest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>1105DelegatePattern.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>1105ImageSwipe.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>1105ScrollView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>1105View.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>iosfirst.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
