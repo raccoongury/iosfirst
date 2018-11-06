@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/a503-17/Downloads/iOS/1102first/iosfirst.xcodeproj">
+      location = "group:../../../../../../Volumes/share-1/ios/ViewController1106/TouchEvent">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
