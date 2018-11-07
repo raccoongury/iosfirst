@@ -67,10 +67,12 @@ class ViewController: UIViewController {
         //화면에 출력
         self.present(loginDialog, animated: true)
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    
 }
+
+
+    
+    
+
