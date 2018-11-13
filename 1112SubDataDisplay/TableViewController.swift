@@ -19,14 +19,14 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "가보고 싶은 곳"
+        self.title = "우리나라 산"
         attractionNames = ["금강산", "남산", "지리산", "백두산", "한라산"]
         attractionURLs = [
-            "https://ko.wikipedia.org/wiki/%EA%B8%88%EA%B0%95%EC%82%B0",
-            "https://ko.wikipedia.org/wiki/%EB%82%A8%EC%82%B0_(%EC%84%9C%EC%9A%B8)",
-            "https://ko.wikipedia.org/wiki/%EC%A7%80%EB%A6%AC%EC%82%B0",
-            "https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%91%90%EC%82%B0",
-            "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%9D%BC%EC%82%B0"]
+            "http://en.wikipedia.org/wiki/Mount_Kumgang",
+            "http://en.wikipedia.org/wiki/Namsan_(Seoul)",
+            "http://en.wikipedia.org/wiki/Jirisan",
+            "http://en.wikipedia.org/wiki/Paektu_Mountain",
+            "http://en.wikipedia.org/wiki/Hallasan"]
         attractionImages = [
         "금강산.jpeg",
         "남산.jpeg",
@@ -35,7 +35,7 @@ class TableViewController: UITableViewController {
         "한라산.jpeg"]
         //테이블 뷰의 셀 높이 설정
         //tableView.estimatedRowHeight = 200
-        
+        print(attractionNames)
     }
     //셀의 높이를 설정하는 메소드
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
@@ -64,51 +64,36 @@ class TableViewController: UITableViewController {
         
         return cell
     }
-    
-    
+
     /*
-     // Override to support conditional editing of the table view.
-     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the specified item to be editable.
-     return true
-     }
-     */
+    //테이블 뷰 에서 셀을 선택했을 때 호출되는 메소드
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        
+        //뷰 컨트롤러 객체 생성하기
+        let detailViewController =
+            self.storyboard?.instantiateViewController(
+                withIdentifier: "DetailViewController")
+                as! DetailViewController
+        //타이틀 설정
+        detailViewController.title = "하위 뷰 컨트롤러"
+        //화면 전환
+        self.navigationController?.pushViewController(
+            detailViewController, animated: true)
+    }
+    */
     
-    /*
-     // Override to support editing the table view.
-     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-     if editingStyle == .delete {
-     // Delete the row from the data source
-     tableView.deleteRows(at: [indexPath], with: .fade)
-     } else if editingStyle == .insert {
-     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-     }
-     }
-     */
-    
-    /*
-     // Override to support rearranging the table view.
-     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-     
-     }
-     */
-    
-    /*
-     // Override to support conditional rearranging of the table view.
-     override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the item to be re-orderable.
-     return true
-     }
-     */
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
+    //세그웨이를 이용해서 화면 전환을 할 때 호출되는 메소드
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //화면전환이 이루어질 뷰 컨트롤러 가져오기
+        let detailViewController = segue.destination as! DetailViewController
+        //선택한 행번호에 해당하는 인덱스 찾아오기
+        let indexPath = tableView.indexPathForSelectedRow
+        detailViewController.title = self.attractionNames[indexPath!.row]
+        //행번호에 해당하는 데이터 넘겨주기
+        detailViewController.address =
+            self.attractionURLs[indexPath!.row]
+        print(indexPath!)
+        
+    }
 }
+
