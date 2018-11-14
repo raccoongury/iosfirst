@@ -103,6 +103,35 @@
 		65BD837B21941AF700576EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BD837A21941AF700576EB0 /* Assets.xcassets */; };
 		65BD837E21941AF700576EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BD837C21941AF700576EB0 /* LaunchScreen.storyboard */; };
 		65BD838421941B3900576EB0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD838321941B3900576EB0 /* DetailViewController.swift */; };
+		65D32DC8219BA7D900C62E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DC7219BA7D900C62E57 /* AppDelegate.swift */; };
+		65D32DCA219BA7D900C62E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DC9219BA7D900C62E57 /* ViewController.swift */; };
+		65D32DCD219BA7D900C62E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DCB219BA7D900C62E57 /* Main.storyboard */; };
+		65D32DCF219BA7F100C62E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DCE219BA7F100C62E57 /* Assets.xcassets */; };
+		65D32DD2219BA7F100C62E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DD0219BA7F100C62E57 /* LaunchScreen.storyboard */; };
+		65D32DDE219BB69B00C62E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DDD219BB69B00C62E57 /* AppDelegate.swift */; };
+		65D32DE0219BB69B00C62E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DDF219BB69B00C62E57 /* ViewController.swift */; };
+		65D32DE3219BB69B00C62E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DE1219BB69B00C62E57 /* Main.storyboard */; };
+		65D32DE5219BB6AA00C62E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DE4219BB6AA00C62E57 /* Assets.xcassets */; };
+		65D32DE8219BB6AA00C62E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DE6219BB6AA00C62E57 /* LaunchScreen.storyboard */; };
+		65D32DEF219BB6FF00C62E57 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D32DEE219BB6FE00C62E57 /* libsqlite3.tbd */; };
+		65D32DFC219BB9E400C62E57 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DF1219BB9E300C62E57 /* FMDatabaseAdditions.m */; };
+		65D32DFD219BB9E400C62E57 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DF2219BB9E300C62E57 /* FMDatabase.m */; };
+		65D32DFE219BB9E400C62E57 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DF7219BB9E400C62E57 /* FMDatabaseQueue.m */; };
+		65D32DFF219BB9E400C62E57 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DF8219BB9E400C62E57 /* FMResultSet.m */; };
+		65D32E00219BB9E400C62E57 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DFA219BB9E400C62E57 /* FMDatabasePool.m */; };
+		65D32E08219BD52500C62E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E07219BD52500C62E57 /* AppDelegate.swift */; };
+		65D32E0A219BD52500C62E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E09219BD52500C62E57 /* ViewController.swift */; };
+		65D32E0D219BD52600C62E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32E0B219BD52600C62E57 /* Main.storyboard */; };
+		65D32E0F219BD53600C62E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D32E0E219BD53600C62E57 /* Assets.xcassets */; };
+		65D32E12219BD53600C62E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32E10219BD53600C62E57 /* LaunchScreen.storyboard */; };
+		65D32E23219BD59D00C62E57 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E18219BD59B00C62E57 /* FMDatabaseAdditions.m */; };
+		65D32E24219BD59D00C62E57 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E19219BD59B00C62E57 /* FMDatabase.m */; };
+		65D32E25219BD59D00C62E57 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E1E219BD59C00C62E57 /* FMDatabaseQueue.m */; };
+		65D32E26219BD59D00C62E57 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E1F219BD59D00C62E57 /* FMResultSet.m */; };
+		65D32E27219BD59D00C62E57 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E21219BD59D00C62E57 /* FMDatabasePool.m */; };
+		65D32E29219BD69900C62E57 /* hr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 65D32E28219BD69900C62E57 /* hr.sqlite */; };
+		65D32E2B219BD77700C62E57 /* DepartmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E2A219BD77700C62E57 /* DepartmentListViewController.swift */; };
+		65D32E2D219BEF9B00C62E57 /* DepartDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32E2C219BEF9B00C62E57 /* DepartDAO.swift */; };
 		65DC052B21951FD4009C9825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC052A21951FD4009C9825 /* AppDelegate.swift */; };
 		65DC052D21951FD4009C9825 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC052C21951FD4009C9825 /* MasterViewController.swift */; };
 		65DC052F21951FD4009C9825 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DC052E21951FD4009C9825 /* DetailViewController.swift */; };
@@ -280,6 +309,55 @@
 		65BD837D21941AF700576EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65BD837F21941AF700576EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65BD838321941B3900576EB0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		65D32DC5219BA7D900C62E57 /* 1114LocalSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1114LocalSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D32DC7219BA7D900C62E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D32DC9219BA7D900C62E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D32DCC219BA7D900C62E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D32DCE219BA7F100C62E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D32DD1219BA7F100C62E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D32DD3219BA7F100C62E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D32DDB219BB69B00C62E57 /* 1114SQLiteUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1114SQLiteUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D32DDD219BB69B00C62E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D32DDF219BB69B00C62E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D32DE2219BB69B00C62E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D32DE4219BB6AA00C62E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D32DE7219BB6AA00C62E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D32DE9219BB6AA00C62E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D32DEE219BB6FE00C62E57 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		65D32DF0219BB9E100C62E57 /* 1114SQLiteUse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1114SQLiteUse-Bridging-Header.h"; sourceTree = "<group>"; };
+		65D32DF1219BB9E300C62E57 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		65D32DF2219BB9E300C62E57 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		65D32DF3219BB9E300C62E57 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		65D32DF4219BB9E300C62E57 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		65D32DF5219BB9E300C62E57 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		65D32DF6219BB9E400C62E57 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		65D32DF7219BB9E400C62E57 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		65D32DF8219BB9E400C62E57 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		65D32DF9219BB9E400C62E57 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		65D32DFA219BB9E400C62E57 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		65D32DFB219BB9E400C62E57 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		65D32E05219BD52500C62E57 /* 1114HR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1114HR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D32E07219BD52500C62E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D32E09219BD52500C62E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D32E0C219BD52600C62E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D32E0E219BD53600C62E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D32E11219BD53600C62E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D32E13219BD53600C62E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D32E17219BD59A00C62E57 /* 1114HR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1114HR-Bridging-Header.h"; sourceTree = "<group>"; };
+		65D32E18219BD59B00C62E57 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		65D32E19219BD59B00C62E57 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		65D32E1A219BD59C00C62E57 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		65D32E1B219BD59C00C62E57 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		65D32E1C219BD59C00C62E57 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		65D32E1D219BD59C00C62E57 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		65D32E1E219BD59C00C62E57 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		65D32E1F219BD59D00C62E57 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		65D32E20219BD59D00C62E57 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		65D32E21219BD59D00C62E57 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		65D32E22219BD59D00C62E57 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		65D32E28219BD69900C62E57 /* hr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hr.sqlite; sourceTree = "<group>"; };
+		65D32E2A219BD77700C62E57 /* DepartmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentListViewController.swift; sourceTree = "<group>"; };
+		65D32E2C219BEF9B00C62E57 /* DepartDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartDAO.swift; sourceTree = "<group>"; };
 		65DC051221951F30009C9825 /* 1109MasterDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1109MasterDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DC052821951FD4009C9825 /* 1109Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1109Master.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DC052A21951FD4009C9825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -468,6 +546,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65D32DC2219BA7D900C62E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32DD8219BB69B00C62E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32E02219BD52500C62E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65DC050F21951F30009C9825 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +620,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D32DEF219BB6FF00C62E57 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +663,11 @@
 				653F070C2199514900240346 /* 1112SubDataDisplay */,
 				653F072E219A84F400240346 /* 1113DataSave */,
 				653F0746219AAD3800240346 /* 1113FileSave */,
+				65D32DC6219BA7D900C62E57 /* 1114LocalSave */,
+				65D32DDC219BB69B00C62E57 /* 1114SQLiteUse */,
+				65D32E06219BD52500C62E57 /* 1114HR */,
 				65021160218C395F00AAA58E /* Products */,
+				65D32DED219BB6FE00C62E57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -597,6 +701,9 @@
 				653F070B2199514800240346 /* 1112SubDataDisplay.app */,
 				653F072D219A84F400240346 /* 1113DataSave.app */,
 				653F0745219AAD3800240346 /* 1113FileSave.app */,
+				65D32DC5219BA7D900C62E57 /* 1114LocalSave.app */,
+				65D32DDB219BB69B00C62E57 /* 1114SQLiteUse.app */,
+				65D32E05219BD52500C62E57 /* 1114HR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -839,6 +946,80 @@
 				65BD838321941B3900576EB0 /* DetailViewController.swift */,
 			);
 			path = 1108Navigation;
+			sourceTree = "<group>";
+		};
+		65D32DC6219BA7D900C62E57 /* 1114LocalSave */ = {
+			isa = PBXGroup;
+			children = (
+				65D32DC7219BA7D900C62E57 /* AppDelegate.swift */,
+				65D32DC9219BA7D900C62E57 /* ViewController.swift */,
+				65D32DCB219BA7D900C62E57 /* Main.storyboard */,
+				65D32DCE219BA7F100C62E57 /* Assets.xcassets */,
+				65D32DD0219BA7F100C62E57 /* LaunchScreen.storyboard */,
+				65D32DD3219BA7F100C62E57 /* Info.plist */,
+			);
+			path = 1114LocalSave;
+			sourceTree = "<group>";
+		};
+		65D32DDC219BB69B00C62E57 /* 1114SQLiteUse */ = {
+			isa = PBXGroup;
+			children = (
+				65D32DF3219BB9E300C62E57 /* FMDatabase.h */,
+				65D32DF2219BB9E300C62E57 /* FMDatabase.m */,
+				65D32DF5219BB9E300C62E57 /* FMDatabaseAdditions.h */,
+				65D32DF1219BB9E300C62E57 /* FMDatabaseAdditions.m */,
+				65D32DF9219BB9E400C62E57 /* FMDatabasePool.h */,
+				65D32DFA219BB9E400C62E57 /* FMDatabasePool.m */,
+				65D32DF6219BB9E400C62E57 /* FMDatabaseQueue.h */,
+				65D32DF7219BB9E400C62E57 /* FMDatabaseQueue.m */,
+				65D32DF4219BB9E300C62E57 /* FMDB.h */,
+				65D32DFB219BB9E400C62E57 /* FMResultSet.h */,
+				65D32DF8219BB9E400C62E57 /* FMResultSet.m */,
+				65D32DDD219BB69B00C62E57 /* AppDelegate.swift */,
+				65D32DDF219BB69B00C62E57 /* ViewController.swift */,
+				65D32DE1219BB69B00C62E57 /* Main.storyboard */,
+				65D32DE4219BB6AA00C62E57 /* Assets.xcassets */,
+				65D32DE6219BB6AA00C62E57 /* LaunchScreen.storyboard */,
+				65D32DE9219BB6AA00C62E57 /* Info.plist */,
+				65D32DF0219BB9E100C62E57 /* 1114SQLiteUse-Bridging-Header.h */,
+			);
+			path = 1114SQLiteUse;
+			sourceTree = "<group>";
+		};
+		65D32DED219BB6FE00C62E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65D32DEE219BB6FE00C62E57 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65D32E06219BD52500C62E57 /* 1114HR */ = {
+			isa = PBXGroup;
+			children = (
+				65D32E28219BD69900C62E57 /* hr.sqlite */,
+				65D32E07219BD52500C62E57 /* AppDelegate.swift */,
+				65D32E09219BD52500C62E57 /* ViewController.swift */,
+				65D32E1A219BD59C00C62E57 /* FMDatabase.h */,
+				65D32E19219BD59B00C62E57 /* FMDatabase.m */,
+				65D32E1C219BD59C00C62E57 /* FMDatabaseAdditions.h */,
+				65D32E18219BD59B00C62E57 /* FMDatabaseAdditions.m */,
+				65D32E20219BD59D00C62E57 /* FMDatabasePool.h */,
+				65D32E21219BD59D00C62E57 /* FMDatabasePool.m */,
+				65D32E1D219BD59C00C62E57 /* FMDatabaseQueue.h */,
+				65D32E1E219BD59C00C62E57 /* FMDatabaseQueue.m */,
+				65D32E1B219BD59C00C62E57 /* FMDB.h */,
+				65D32E22219BD59D00C62E57 /* FMResultSet.h */,
+				65D32E1F219BD59D00C62E57 /* FMResultSet.m */,
+				65D32E0B219BD52600C62E57 /* Main.storyboard */,
+				65D32E0E219BD53600C62E57 /* Assets.xcassets */,
+				65D32E10219BD53600C62E57 /* LaunchScreen.storyboard */,
+				65D32E13219BD53600C62E57 /* Info.plist */,
+				65D32E17219BD59A00C62E57 /* 1114HR-Bridging-Header.h */,
+				65D32E2A219BD77700C62E57 /* DepartmentListViewController.swift */,
+				65D32E2C219BEF9B00C62E57 /* DepartDAO.swift */,
+			);
+			path = 1114HR;
 			sourceTree = "<group>";
 		};
 		65DC052921951FD4009C9825 /* 1109Master */ = {
@@ -1256,6 +1437,57 @@
 			productReference = 65BD837121941AE700576EB0 /* 1108Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		65D32DC4219BA7D900C62E57 /* 1114LocalSave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D32DD6219BA7F100C62E57 /* Build configuration list for PBXNativeTarget "1114LocalSave" */;
+			buildPhases = (
+				65D32DC1219BA7D900C62E57 /* Sources */,
+				65D32DC2219BA7D900C62E57 /* Frameworks */,
+				65D32DC3219BA7D900C62E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1114LocalSave;
+			productName = 1114LocalSave;
+			productReference = 65D32DC5219BA7D900C62E57 /* 1114LocalSave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D32DDA219BB69B00C62E57 /* 1114SQLiteUse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D32DEA219BB6AA00C62E57 /* Build configuration list for PBXNativeTarget "1114SQLiteUse" */;
+			buildPhases = (
+				65D32DD7219BB69B00C62E57 /* Sources */,
+				65D32DD8219BB69B00C62E57 /* Frameworks */,
+				65D32DD9219BB69B00C62E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1114SQLiteUse;
+			productName = 1114SQLiteUse;
+			productReference = 65D32DDB219BB69B00C62E57 /* 1114SQLiteUse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D32E04219BD52500C62E57 /* 1114HR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D32E14219BD53600C62E57 /* Build configuration list for PBXNativeTarget "1114HR" */;
+			buildPhases = (
+				65D32E01219BD52500C62E57 /* Sources */,
+				65D32E02219BD52500C62E57 /* Frameworks */,
+				65D32E03219BD52500C62E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1114HR;
+			productName = 1114HR;
+			productReference = 65D32E05219BD52500C62E57 /* 1114HR.app */;
+			productType = "com.apple.product-type.application";
+		};
 		65DC051121951F30009C9825 /* 1109MasterDetail */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65DC052321951F45009C9825 /* Build configuration list for PBXNativeTarget "1109MasterDetail" */;
@@ -1473,6 +1705,17 @@
 					65BD837021941AE700576EB0 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					65D32DC4219BA7D900C62E57 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					65D32DDA219BB69B00C62E57 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					65D32E04219BD52500C62E57 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
 					65DC051121951F30009C9825 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1542,6 +1785,9 @@
 				653F070A2199514800240346 /* 1112SubDataDisplay */,
 				653F072C219A84F400240346 /* 1113DataSave */,
 				653F0744219AAD3800240346 /* 1113FileSave */,
+				65D32DC4219BA7D900C62E57 /* 1114LocalSave */,
+				65D32DDA219BB69B00C62E57 /* 1114SQLiteUse */,
+				65D32E04219BD52500C62E57 /* 1114HR */,
 			);
 		};
 /* End PBXProject section */
@@ -1724,6 +1970,37 @@
 				65BD837E21941AF700576EB0 /* LaunchScreen.storyboard in Resources */,
 				65BD837B21941AF700576EB0 /* Assets.xcassets in Resources */,
 				65BD837921941AE700576EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32DC3219BA7D900C62E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D32DD2219BA7F100C62E57 /* LaunchScreen.storyboard in Resources */,
+				65D32DCF219BA7F100C62E57 /* Assets.xcassets in Resources */,
+				65D32DCD219BA7D900C62E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32DD9219BB69B00C62E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D32DE8219BB6AA00C62E57 /* LaunchScreen.storyboard in Resources */,
+				65D32DE5219BB6AA00C62E57 /* Assets.xcassets in Resources */,
+				65D32DE3219BB69B00C62E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32E03219BD52500C62E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D32E12219BD53600C62E57 /* LaunchScreen.storyboard in Resources */,
+				65D32E0F219BD53600C62E57 /* Assets.xcassets in Resources */,
+				65D32E0D219BD52600C62E57 /* Main.storyboard in Resources */,
+				65D32E29219BD69900C62E57 /* hr.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1982,6 +2259,45 @@
 				65BD838421941B3900576EB0 /* DetailViewController.swift in Sources */,
 				65BD837621941AE700576EB0 /* ViewController.swift in Sources */,
 				65BD837421941AE700576EB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32DC1219BA7D900C62E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D32DCA219BA7D900C62E57 /* ViewController.swift in Sources */,
+				65D32DC8219BA7D900C62E57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32DD7219BB69B00C62E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D32DFF219BB9E400C62E57 /* FMResultSet.m in Sources */,
+				65D32DFE219BB9E400C62E57 /* FMDatabaseQueue.m in Sources */,
+				65D32DE0219BB69B00C62E57 /* ViewController.swift in Sources */,
+				65D32DDE219BB69B00C62E57 /* AppDelegate.swift in Sources */,
+				65D32E00219BB9E400C62E57 /* FMDatabasePool.m in Sources */,
+				65D32DFC219BB9E400C62E57 /* FMDatabaseAdditions.m in Sources */,
+				65D32DFD219BB9E400C62E57 /* FMDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D32E01219BD52500C62E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D32E26219BD59D00C62E57 /* FMResultSet.m in Sources */,
+				65D32E25219BD59D00C62E57 /* FMDatabaseQueue.m in Sources */,
+				65D32E0A219BD52500C62E57 /* ViewController.swift in Sources */,
+				65D32E08219BD52500C62E57 /* AppDelegate.swift in Sources */,
+				65D32E2B219BD77700C62E57 /* DepartmentListViewController.swift in Sources */,
+				65D32E27219BD59D00C62E57 /* FMDatabasePool.m in Sources */,
+				65D32E23219BD59D00C62E57 /* FMDatabaseAdditions.m in Sources */,
+				65D32E2D219BEF9B00C62E57 /* DepartDAO.swift in Sources */,
+				65D32E24219BD59D00C62E57 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2353,6 +2669,54 @@
 			isa = PBXVariantGroup;
 			children = (
 				65BD837D21941AF700576EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65D32DCB219BA7D900C62E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D32DCC219BA7D900C62E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D32DD0219BA7F100C62E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D32DD1219BA7F100C62E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65D32DE1219BB69B00C62E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D32DE2219BB69B00C62E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D32DE6219BB6AA00C62E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D32DE7219BB6AA00C62E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65D32E0B219BD52600C62E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D32E0C219BD52600C62E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D32E10219BD53600C62E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D32E11219BD53600C62E57 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3218,6 +3582,118 @@
 			};
 			name = Release;
 		};
+		65D32DD4219BA7F100C62E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1114LocalSave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-114LocalSave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D32DD5219BA7F100C62E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1114LocalSave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-114LocalSave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65D32DEB219BB6AA00C62E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1114SQLiteUse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-114SQLiteUse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "1114SQLiteUse/1114SQLiteUse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D32DEC219BB6AA00C62E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1114SQLiteUse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-114SQLiteUse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "1114SQLiteUse/1114SQLiteUse-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65D32E15219BD53600C62E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1114HR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-114HR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "1114HR/1114HR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D32E16219BD53600C62E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1114HR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-114HR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "1114HR/1114HR-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		65DC052121951F45009C9825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3696,6 +4172,33 @@
 			buildConfigurations = (
 				65BD838121941AF700576EB0 /* Debug */,
 				65BD838221941AF700576EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D32DD6219BA7F100C62E57 /* Build configuration list for PBXNativeTarget "1114LocalSave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D32DD4219BA7F100C62E57 /* Debug */,
+				65D32DD5219BA7F100C62E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D32DEA219BB6AA00C62E57 /* Build configuration list for PBXNativeTarget "1114SQLiteUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D32DEB219BB6AA00C62E57 /* Debug */,
+				65D32DEC219BB6AA00C62E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D32E14219BD53600C62E57 /* Build configuration list for PBXNativeTarget "1114HR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D32E15219BD53600C62E57 /* Debug */,
+				65D32E16219BD53600C62E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
