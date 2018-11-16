@@ -109,6 +109,13 @@
 		65BD837B21941AF700576EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BD837A21941AF700576EB0 /* Assets.xcassets */; };
 		65BD837E21941AF700576EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BD837C21941AF700576EB0 /* LaunchScreen.storyboard */; };
 		65BD838421941B3900576EB0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD838321941B3900576EB0 /* DetailViewController.swift */; };
+		65D2894E219E56AF006679BF /* LogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2894D219E56AF006679BF /* LogVC.swift */; };
+		65D28956219E794D006679BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D28955219E794D006679BF /* AppDelegate.swift */; };
+		65D28958219E794D006679BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D28957219E794D006679BF /* ViewController.swift */; };
+		65D2895B219E794D006679BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D28959219E794D006679BF /* Main.storyboard */; };
+		65D2895E219E794E006679BF /* _116WebData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D2895C219E794E006679BF /* _116WebData.xcdatamodeld */; };
+		65D28960219E7963006679BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D2895F219E7963006679BF /* Assets.xcassets */; };
+		65D28963219E7963006679BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D28961219E7963006679BF /* LaunchScreen.storyboard */; };
 		65D32DC8219BA7D900C62E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DC7219BA7D900C62E57 /* AppDelegate.swift */; };
 		65D32DCA219BA7D900C62E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D32DC9219BA7D900C62E57 /* ViewController.swift */; };
 		65D32DCD219BA7D900C62E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D32DCB219BA7D900C62E57 /* Main.storyboard */; };
@@ -324,6 +331,15 @@
 		65BD837D21941AF700576EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65BD837F21941AF700576EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65BD838321941B3900576EB0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		65D2894D219E56AF006679BF /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
+		65D28953219E794D006679BF /* 1116WebData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1116WebData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D28955219E794D006679BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D28957219E794D006679BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D2895A219E794D006679BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D2895D219E794E006679BF /* _116WebData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _116WebData.xcdatamodel; sourceTree = "<group>"; };
+		65D2895F219E7963006679BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D28962219E7963006679BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D28964219E7963006679BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65D32DC5219BA7D900C62E57 /* 1114LocalSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1114LocalSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D32DC7219BA7D900C62E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D32DC9219BA7D900C62E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -575,6 +591,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65D28950219E794D006679BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65D32DC2219BA7D900C62E57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -696,6 +719,7 @@
 				65D32DDC219BB69B00C62E57 /* 1114SQLiteUse */,
 				65D32E06219BD52500C62E57 /* 1114HR */,
 				655C96C3219D119D001A7E60 /* 1115CoreDB */,
+				65D28954219E794D006679BF /* 1116WebData */,
 				65021160218C395F00AAA58E /* Products */,
 				65D32DED219BB6FE00C62E57 /* Frameworks */,
 			);
@@ -736,6 +760,7 @@
 				65D32E05219BD52500C62E57 /* 1114HR.app */,
 				655C96AC219D1080001A7E60 /* 1115CoreData.app */,
 				655C96C2219D1193001A7E60 /* 1115CoreDB.app */,
+				65D28953219E794D006679BF /* 1116WebData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -931,6 +956,7 @@
 			children = (
 				655C96C4219D119E001A7E60 /* AppDelegate.swift */,
 				655C96C8219D11A0001A7E60 /* Main.storyboard */,
+				65D2894D219E56AF006679BF /* LogVC.swift */,
 				655C96CE219D11CC001A7E60 /* Assets.xcassets */,
 				655C96D0219D11CC001A7E60 /* LaunchScreen.storyboard */,
 				655C96D3219D11CC001A7E60 /* Info.plist */,
@@ -992,6 +1018,20 @@
 				65BD838321941B3900576EB0 /* DetailViewController.swift */,
 			);
 			path = 1108Navigation;
+			sourceTree = "<group>";
+		};
+		65D28954219E794D006679BF /* 1116WebData */ = {
+			isa = PBXGroup;
+			children = (
+				65D28955219E794D006679BF /* AppDelegate.swift */,
+				65D28957219E794D006679BF /* ViewController.swift */,
+				65D28959219E794D006679BF /* Main.storyboard */,
+				65D2895F219E7963006679BF /* Assets.xcassets */,
+				65D28961219E7963006679BF /* LaunchScreen.storyboard */,
+				65D28964219E7963006679BF /* Info.plist */,
+				65D2895C219E794E006679BF /* _116WebData.xcdatamodeld */,
+			);
+			path = 1116WebData;
 			sourceTree = "<group>";
 		};
 		65D32DC6219BA7D900C62E57 /* 1114LocalSave */ = {
@@ -1517,6 +1557,23 @@
 			productReference = 65BD837121941AE700576EB0 /* 1108Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		65D28952219E794D006679BF /* 1116WebData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D28965219E7963006679BF /* Build configuration list for PBXNativeTarget "1116WebData" */;
+			buildPhases = (
+				65D2894F219E794D006679BF /* Sources */,
+				65D28950219E794D006679BF /* Frameworks */,
+				65D28951219E794D006679BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1116WebData;
+			productName = 1116WebData;
+			productReference = 65D28953219E794D006679BF /* 1116WebData.app */;
+			productType = "com.apple.product-type.application";
+		};
 		65D32DC4219BA7D900C62E57 /* 1114LocalSave */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D32DD6219BA7F100C62E57 /* Build configuration list for PBXNativeTarget "1114LocalSave" */;
@@ -1791,6 +1848,9 @@
 					65BD837021941AE700576EB0 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					65D28952219E794D006679BF = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					65D32DC4219BA7D900C62E57 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1876,6 +1936,7 @@
 				65D32E04219BD52500C62E57 /* 1114HR */,
 				655C96AB219D1080001A7E60 /* 1115CoreData */,
 				655C96C1219D1193001A7E60 /* 1115CoreDB */,
+				65D28952219E794D006679BF /* 1116WebData */,
 			);
 		};
 /* End PBXProject section */
@@ -2075,6 +2136,16 @@
 				65BD837E21941AF700576EB0 /* LaunchScreen.storyboard in Resources */,
 				65BD837B21941AF700576EB0 /* Assets.xcassets in Resources */,
 				65BD837921941AE700576EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D28951219E794D006679BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D28963219E7963006679BF /* LaunchScreen.storyboard in Resources */,
+				65D28960219E7963006679BF /* Assets.xcassets in Resources */,
+				65D2895B219E794D006679BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2341,6 +2412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				655C96D8219D123A001A7E60 /* ListVC.swift in Sources */,
+				65D2894E219E56AF006679BF /* LogVC.swift in Sources */,
 				655C96CD219D11A1001A7E60 /* _115CoreDB.xcdatamodeld in Sources */,
 				655C96C5219D119E001A7E60 /* AppDelegate.swift in Sources */,
 			);
@@ -2381,6 +2453,16 @@
 				65BD838421941B3900576EB0 /* DetailViewController.swift in Sources */,
 				65BD837621941AE700576EB0 /* ViewController.swift in Sources */,
 				65BD837421941AE700576EB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D2894F219E794D006679BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D2895E219E794E006679BF /* _116WebData.xcdatamodeld in Sources */,
+				65D28958219E794D006679BF /* ViewController.swift in Sources */,
+				65D28956219E794D006679BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2807,6 +2889,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				65BD837D21941AF700576EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65D28959219E794D006679BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D2895A219E794D006679BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D28961219E7963006679BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D28962219E7963006679BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3788,6 +3886,40 @@
 			};
 			name = Release;
 		};
+		65D28966219E7963006679BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1116WebData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-116WebData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D28967219E7963006679BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 1116WebData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmail.raccoongury.-116WebData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		65D32DD4219BA7F100C62E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4400,6 +4532,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		65D28965219E7963006679BF /* Build configuration list for PBXNativeTarget "1116WebData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D28966219E7963006679BF /* Debug */,
+				65D28967219E7963006679BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65D32DD6219BA7F100C62E57 /* Build configuration list for PBXNativeTarget "1114LocalSave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4518,6 +4659,16 @@
 			);
 			currentVersion = 655C96CC219D11A1001A7E60 /* _115CoreDB.xcdatamodel */;
 			path = _115CoreDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		65D2895C219E794E006679BF /* _116WebData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65D2895D219E794E006679BF /* _116WebData.xcdatamodel */,
+			);
+			currentVersion = 65D2895D219E794E006679BF /* _116WebData.xcdatamodel */;
+			path = _116WebData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

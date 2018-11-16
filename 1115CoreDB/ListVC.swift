@@ -43,6 +43,16 @@ class ListVC: UITableViewController {
         newData.setValue(content, forKey: "content")
         newData.setValue(Date(), forKey: "regdate")
         
+        //로그를 추가하는 코드
+        //데이터를 삽입하기 위한 객체 생성
+        let log =
+            NSEntityDescription.insertNewObject(forEntityName: "Log", into: context) as! LogMO
+        //데이터 설정
+        log.regdate = Date()
+        log.type=LogType.create.rawValue
+        //Board 객체와 연결
+        (newData as! BoardMO).addToLog(log)
+        
         //데이터 저장하기
         do{
             //Core Data 에 데이터 저장
@@ -85,6 +95,17 @@ class ListVC: UITableViewController {
         object.setValue(title, forKey: "title")
         object.setValue(content, forKey: "content")
         object.setValue(Date(), forKey: "regdate")
+        
+        //로그를 추가하는 코드
+        //데이터를 삽입하기 위한 객체 생성
+        let log = NSEntityDescription.insertNewObject(forEntityName: "Log", into: context) as! LogMO
+        //데이터 설정
+        log.regdate = Date()
+        log.type=LogType.edit.rawValue
+        //Board 객체와 연결
+        (object as! BoardMO).addToLog(log)
+        
+        
         do{
             try context.save()
             return true
@@ -214,4 +235,17 @@ class ListVC: UITableViewController {
         })
         self.present(alert, animated: true)
     }
+    
+    //엑세서리 버튼을 눌렀을 때 호출되는 메소드
+    override func tableView(_ tableView:UITableView, accessoryButtonTappedForRowWith  indexPath:IndexPath){
+        //스토리보드에 만든 ViewController 인스턴스를 생성
+        let logVC =
+            self.storyboard?.instantiateViewController(withIdentifier: "LogVC") as! LogVC
+        //넘겨줄 데이터 가져오기
+        let boardMO = self.list[indexPath.row] as! BoardMO
+        logVC.board = boardMO
+        //화면 출력
+        self.show(logVC, sender:self)
+    }
 }
+
