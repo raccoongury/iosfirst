@@ -17,7 +17,7 @@
 		<key>1102textfieldtest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>44</integer>
 		</dict>
 		<key>1105DelegatePattern.xcscheme_^#shared#^_</key>
 		<dict>
@@ -27,27 +27,27 @@
 		<key>1105ImageSwipe.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>45</integer>
 		</dict>
 		<key>1105ScrollView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>43</integer>
 		</dict>
 		<key>1105View.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>42</integer>
 		</dict>
 		<key>1106AutoLayout.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>51</integer>
 		</dict>
 		<key>1106AutoResizing.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>47</integer>
 		</dict>
 		<key>1106StringPickerView.xcscheme_^#shared#^_</key>
 		<dict>
@@ -62,12 +62,12 @@
 		<key>1106TouchEvent.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>49</integer>
 		</dict>
 		<key>1107LoginDialog.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
+			<integer>50</integer>
 		</dict>
 		<key>1107ViewController.xcscheme_^#shared#^_</key>
 		<dict>
@@ -77,47 +77,47 @@
 		<key>1108Navigation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>53</integer>
 		</dict>
 		<key>1108TabBar.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>54</integer>
 		</dict>
 		<key>1108Transition.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>52</integer>
 		</dict>
 		<key>1109CellStyle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>58</integer>
+			<integer>61</integer>
 		</dict>
 		<key>1109Master.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>57</integer>
 		</dict>
 		<key>1109MasterDetail.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>55</integer>
 		</dict>
 		<key>1109TableView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>56</integer>
 		</dict>
 		<key>1109TableView2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>58</integer>
 		</dict>
 		<key>1112Grouping.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>60</integer>
+			<integer>59</integer>
 		</dict>
 		<key>1112SubDataDisplay.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,7 +127,7 @@
 		<key>1112TableView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>61</integer>
+			<integer>60</integer>
 		</dict>
 		<key>1113DataSave.xcscheme_^#shared#^_</key>
 		<dict>
@@ -157,7 +157,7 @@
 		<key>1115CoreDB.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>70</integer>
 		</dict>
 		<key>1115CoreData.xcscheme_^#shared#^_</key>
 		<dict>
@@ -167,22 +167,22 @@
 		<key>1116WebData.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>68</integer>
 		</dict>
 		<key>1119WebDataJsonParsing.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>71</integer>
 		</dict>
 		<key>1119WebDataParsing.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>72</integer>
 		</dict>
 		<key>1119WebDataXmlParsing.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>72</integer>
+			<integer>73</integer>
 		</dict>
 		<key>1120AlamofireTest.xcscheme_^#shared#^_</key>
 		<dict>
@@ -193,6 +193,26 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>75</integer>
+		</dict>
+		<key>1122CollectionView.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
+		<key>1122Map.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>1122UseLocation.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
+		<key>1122UseMap.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
 		</dict>
 		<key>iosfirst.xcscheme_^#shared#^_</key>
 		<dict>
