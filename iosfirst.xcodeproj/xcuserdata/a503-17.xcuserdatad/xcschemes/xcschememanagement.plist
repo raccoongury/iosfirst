@@ -17,12 +17,12 @@
 		<key>1102textfieldtest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>43</integer>
 		</dict>
 		<key>1105DelegatePattern.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>41</integer>
 		</dict>
 		<key>1105ImageSwipe.xcscheme_^#shared#^_</key>
 		<dict>
@@ -37,12 +37,12 @@
 		<key>1105View.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>42</integer>
 		</dict>
 		<key>1106AutoLayout.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>50</integer>
 		</dict>
 		<key>1106AutoResizing.xcscheme_^#shared#^_</key>
 		<dict>
@@ -57,7 +57,7 @@
 		<key>1106TapGesture.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>48</integer>
 		</dict>
 		<key>1106TouchEvent.xcscheme_^#shared#^_</key>
 		<dict>
@@ -67,7 +67,7 @@
 		<key>1107LoginDialog.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>53</integer>
 		</dict>
 		<key>1107ViewController.xcscheme_^#shared#^_</key>
 		<dict>
@@ -77,32 +77,32 @@
 		<key>1108Navigation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>56</integer>
 		</dict>
 		<key>1108TabBar.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>51</integer>
 		</dict>
 		<key>1108Transition.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
+			<integer>52</integer>
 		</dict>
 		<key>1109CellStyle.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>57</integer>
 		</dict>
 		<key>1109Master.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>54</integer>
 		</dict>
 		<key>1109MasterDetail.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>55</integer>
 		</dict>
 		<key>1109TableView.xcscheme_^#shared#^_</key>
 		<dict>
@@ -112,12 +112,12 @@
 		<key>1109TableView2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>59</integer>
 		</dict>
 		<key>1112Grouping.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>61</integer>
+			<integer>60</integer>
 		</dict>
 		<key>1112SubDataDisplay.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,7 +127,7 @@
 		<key>1112TableView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>60</integer>
+			<integer>61</integer>
 		</dict>
 		<key>1113DataSave.xcscheme_^#shared#^_</key>
 		<dict>
@@ -213,6 +213,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>79</integer>
+		</dict>
+		<key>1129UICustomizing.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>80</integer>
 		</dict>
 		<key>iosfirst.xcscheme_^#shared#^_</key>
 		<dict>
