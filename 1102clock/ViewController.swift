@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController { 
     //타이머가 수행할 메소드
     @objc func timerProc(){
         //현재 날짜 가져오기
